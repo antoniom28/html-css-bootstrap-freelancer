@@ -32,7 +32,14 @@
     width: 40px;
 }
 .row-5 .col-auto.star::before {
+    left: -37px;
+}
+.row-6 .col-auto.star::before, 
+.row-6 .col-auto.star::after {
+    background-color:black;
     width: 40px;
+}
+.row-6 .col-auto.star::before {
     left: -37px;
 }
 
@@ -43,3 +50,20 @@
     background-color: tomato;
 }
 /* da cancellare quando mettiamo le immagini */
+
+.form-control{
+    /*height: 100px; height data come attributo*/
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+.form-floating>label {
+    left: -15px;
+}
+.form-floating:focus-within>label{
+    left:0;
+}
+
+.send-text{
+    width: 225px;
+}
