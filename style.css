@@ -12,50 +12,32 @@
     background-color: #3d3e54;
 }
 
-.col-auto.star::before,.col-auto.star::after {
+.star::before,
+.star::after {
     content: "";
-    position: absolute;
     width: 60px;
     height: 2.68px;
-    top: 15px;
-    left: 45px;
     background-color: white;
-}
-.col-auto.star::before {
-    left: -57px;
+    margin:0 10px;
 }
 
-.row-3 .col-auto.star::before, 
-.row-3 .col-auto.star::after {
+.row-3 .star::before, 
+.row-3 .star::after {
     background-color: black;
 }
-.row-5 .col-auto.star::before, 
-.row-5 .col-auto.star::after {
+.row-5 .star::before, 
+.row-5 .star::after {
     background-color: white;
     width: 40px;
 }
-.row-5 .col-auto.star::before {
-    left: -37px;
-}
-.row-6 .col-auto.star::before, 
-.row-6 .col-auto.star::after {
+
+.row-6 .star::before, 
+.row-6 .star::after {
     background-color:black;
     width: 40px;
 }
-.row-6 .col-auto.star::before {
-    left: -37px;
-}
-
-/* da cancellare quando mettiamo le immagini */
-.row-4 div{
-    height: 261px;
-    width: 90%;
-    background-color: tomato;
-}
-/* da cancellare quando mettiamo le immagini */
 
 .form-control{
-    /*height: 100px; height data come attributo*/
     border: none;
     border-bottom: 1px solid black;
     border-radius: 0;
@@ -65,8 +47,4 @@
 }
 .form-floating:focus-within>label{
     left:0;
-}
-
-.send-text{
-    width: 225px;
 }
