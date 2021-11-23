@@ -2,8 +2,10 @@
     background-color: #3d3e54;
     height: 70px;
 }
-
 .row-2{
+    background-color: #7dbf9f;
+}
+.row-5{
     background-color: #7dbf9f;
 }
 
@@ -16,7 +18,6 @@
     left: 45px;
     background-color: white;
 }
-
 .col-auto.star::before {
     left: -57px;
 }
@@ -25,7 +26,15 @@
 .row-3 .col-auto.star::after {
     background-color: black;
 }
-
+.row-5 .col-auto.star::before, 
+.row-5 .col-auto.star::after {
+    background-color: white;
+    width: 40px;
+}
+.row-5 .col-auto.star::before {
+    width: 40px;
+    left: -37px;
+}
 
 /* da cancellare quando mettiamo le immagini */
 .row-4 div{
