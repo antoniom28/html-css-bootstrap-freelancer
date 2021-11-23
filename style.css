@@ -7,17 +7,30 @@
     background-color: #7dbf9f;
 }
 
-
-.row-2 .col-auto.star::before, .row-2 .col-auto.star::after {
+.col-auto.star::before,.col-auto.star::after {
     content: "";
     position: absolute;
     width: 60px;
     height: 2.68px;
-    top: 17px;
+    top: 15px;
     left: 45px;
     background-color: white;
 }
 
-.row-2 .col-auto.star::after {
-    left: -55px;
+.col-auto.star::before {
+    left: -57px;
 }
+
+.row-3 .col-auto.star::before, 
+.row-3 .col-auto.star::after {
+    background-color: black;
+}
+
+
+/* da cancellare quando mettiamo le immagini */
+.row-4 div{
+    height: 261px;
+    width: 90%;
+    background-color: tomato;
+}
+/* da cancellare quando mettiamo le immagini */
