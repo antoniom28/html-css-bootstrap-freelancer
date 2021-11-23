@@ -8,6 +8,9 @@
 .row-5{
     background-color: #7dbf9f;
 }
+.row-7.footer{
+    background-color: #3d3e54;
+}
 
 .col-auto.star::before,.col-auto.star::after {
     content: "";
