@@ -2,3 +2,22 @@
     background-color: #3d3e54;
     height: 70px;
 }
+
+.row-2{
+    background-color: #7dbf9f;
+}
+
+
+.row-2 .col-auto.star::before, .row-2 .col-auto.star::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2.68px;
+    top: 17px;
+    left: 45px;
+    background-color: white;
+}
+
+.row-2 .col-auto.star::after {
+    left: -55px;
+}
