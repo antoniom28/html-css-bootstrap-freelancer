@@ -48,3 +48,10 @@
 .form-floating:focus-within>label{
     left:0;
 }
+#passaaldesktop{
+    text-decoration:none;
+    color:white;
+}
+#passaaldesktop:hover{
+    color:blue;
+}
