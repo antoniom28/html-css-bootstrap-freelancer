@@ -2,6 +2,12 @@
     background-color: #3d3e54;
     height: 70px;
 }
+nav{
+    background-color: #3d3e54;
+}
+span.menu{
+    filter: invert(1);
+}
 .row-2{
     background-color: #7dbf9f;
 }
@@ -10,6 +16,9 @@
 }
 .row-7.footer{
     background-color: #3d3e54;
+}
+.avatar{
+    z-index: 1;
 }
 
 .star::before,
