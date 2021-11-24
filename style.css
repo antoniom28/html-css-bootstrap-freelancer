@@ -20,6 +20,9 @@ span.menu{
 .avatar{
     z-index: 1;
 }
+.row-contact button{
+    background-color: #7dbf9f;
+}
 
 .star::before,
 .star::after {
